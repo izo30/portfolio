@@ -1,0 +1,749 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.navbar-light {
+    padding: 30px 100px;
+}
+
+.nav-link {
+    color: #222222;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+
+.navbar-brand p {
+    margin: auto 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #222222;
+}
+
+.brand-text {
+    color: #2680EB;
+}
+
+.name {
+    color: #222222;
+}
+
+.hero-text {
+    padding: 100px 0px 0px 180px;
+}
+
+.hero-text p {
+    color: #222222;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    padding-left: 20px;
+    border-left: solid 4px #222222;
+}
+
+.btn-hero {
+    border-radius: 5px;
+    background-color: #2680EB;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.btn {
+    padding: 10px 20px;
+}
+
+.btn-hero:hover {
+    color: #ffffff;
+    background-color: rgb(34, 98, 177);
+}
+
+.hero-image {
+    width: 500px;
+    height: 600px;
+    padding: 0px 0px 0px 50px;
+}
+
+.hero-image img {
+    max-width:100%;
+    max-height:100%;
+}
+
+.skills-section {
+    background: #F9F9F9;
+    margin: 80px 0px;
+    padding: 90px 200px 60px 200px;
+}
+
+.skills-section h2 {
+    margin-bottom: 80px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.skills-content {
+    margin: auto;
+    padding: 0px;
+}
+
+.development-image,
+.prototyping-image,
+.bughunting-image
+ {
+    width: 122px;
+    height: 160px;
+    padding: 0px;
+    border-radius: 11px;
+}
+
+.skills-section .col-4 img {
+    height: auto;
+}
+
+.development-image {
+    background: #5FCFF8;
+}
+
+.prototyping-image {
+    background: #F4D330;
+}
+
+.bughunting-image {
+    background: #D8357B;
+}
+
+.bughunting-image img {
+    margin: 20px auto;
+}
+
+.skills-section .col-8 {
+    padding: 10px 35px 10px 25px;
+}
+
+.skills-section .col-8 h3 {
+    color: #d8357b;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.skills-section .col-8 p {
+    color: #787878;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.languages-section {
+    background: #14556D;
+    border-radius: 11px;
+    margin: 20px 80px 100px 80px;
+    padding: 80px 60px 50px 90px;
+}
+
+.languages-section .col-4 {
+    border-radius: 11px;
+    padding: 0px;
+}
+
+.languages-card {
+    background: #FFFFFF;
+    border-radius: 11px;
+}
+
+.languages-image {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    background: #D8357B;
+}
+
+.languages-card h3 {
+    padding: 20px 20px 10px 20px;
+    margin: 0px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.languages-card p {
+    padding: 0px 20px 20px 20px;
+    color: #787878;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.languages-hero {
+    margin: auto 40px;
+}
+
+.projects-section {
+    padding: 0px 200px 80px 200px;
+}
+
+.projects-content {
+    margin: 0;
+}
+
+.projects-section h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 80px;
+}
+
+.project-card {
+    max-width: 31%;
+    height: fit-content;
+    box-shadow: 10px 10px 30px rgba(23, 41, 65, 0.1);
+    border-radius: 11px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    padding: 0px 0px 23px;
+}
+
+.project-card:hover {
+    box-shadow: 20px 20px 20px rgba(23, 41, 65, 0.1);
+}
+
+.farnod-image {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    background: #D8357B;
+}
+
+.kenyanewsdroid-image {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    background: #F4D330;
+}
+
+.grocerydelivery-image {
+    border-radius: 7.5px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    background: #63D28F;
+}
+
+.grocerydelivery-image img {
+    margin-top: 12px;
+}
+
+.mep-image {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    background: #5FCFF8;
+}
+
+.ireporter-api-image {
+    border-radius: 11px;
+    width: 150px;
+    height: 150px;
+    background: #14556D;
+    margin-bottom: 20px;
+}
+
+.ireporter-api-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bright-image {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    background: #F4D330;
+}
+
+.bright-image img {
+    margin: 13px;
+}
+
+.project-card h3 {
+    margin: 28px 20px 20px 20px;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.project-card p {
+    margin: 0px 20px;
+    color: #787878;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.project-card .p-bottom-margin {
+    margin-bottom: 20px;
+}
+
+.project-card button {
+    border: 2px solid;
+    margin: 0px 20px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.project-card button:hover {
+    color: #FFFFFF;
+}
+
+.btn-farnod {
+    border-color: #D8357B;
+    color: #D8357B;
+}
+
+.btn-farnod:hover {
+    border-color: #D8357B;
+    background: #D8357B;
+}
+
+.btn-kenyanewsdroid {
+    border-color: #F4D330;
+    color: #F4D330;
+}
+
+.btn-kenyanewsdroid:hover {
+    border-color: #F4D330;
+    background: #F4D330;
+}
+
+.btn-grocerydelivery {
+    border-color: #63D28F;
+    color: #63D28F;
+}
+
+.btn-grocerydelivery:hover {
+    border-color: #63D28F;
+    background: #63D28F;
+}
+
+.btn-mep {
+    border-color: #5FCFF8;
+    color: #5FCFF8;
+}
+
+.btn-mep:hover {
+    border-color: #5FCFF8;
+    background: #5FCFF8;
+}
+
+.btn-ireporter-api {
+    border-color: #14556D;
+    color: #14556D;
+}
+
+.btn-ireporter-api:hover {
+    border-color: #14556D;
+    background: #14556D;
+}
+
+.btn-bright {
+    border-color: #F4D330;
+    color: #F4D330;
+}
+
+.btn-bright:hover {
+    border-color: #F4D330;
+    background: #F4D330;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 70px;
+    background: #D8357B;
+}
+
+.footer h1 {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.footer-image {
+    width: 170px;
+    height: 250px;
+    background: #F4D330;
+    border-radius: 11px;
+}
+
+.footer-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.contacts {
+    margin-bottom: 100px;
+}
+
+.contacts-links {
+    margin: auto;
+    padding: 0px;
+    align-content: right;
+}
+
+.contact-img {
+    width: 34px;
+    height: 34px;
+    padding: 0px;
+}
+
+.contacts-links p, a {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.contacts-links a:visited, a:hover {
+    color: #FFFFFF;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+    .navbar-light {
+        padding: 30px 30px;
+    }
+
+    .hero-text {
+        padding: 0px 40px;
+    }
+
+    .hero-image {
+        height: 338px;
+        padding: 0px 30px;
+    }
+
+    .skills-section {
+        margin: 0px;
+        padding: 0px 40px;
+    }
+
+    .skills-section h2 {
+        margin: 50px auto;
+    }
+
+    .skill-card {
+        margin: 10px auto;
+        min-width: 100%;
+    }
+
+    .skills-section .col-8 {
+        padding: 10px 0px 10px 25px;
+    }
+
+    .skills-content:last-child {
+        padding-bottom: 30px;
+    }
+
+    .languages {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .languages-section {
+        border-radius: 0px;
+        margin: 0px;
+        padding: 50px 0px;
+    }
+    
+    .languages-section .col {
+        margin: 0px 30px;
+    }
+
+    .languages-section .col:last-child {
+        margin: 0px 30px;
+        padding: 0px 50px 0px 0px;
+    }
+    
+    .languages-card p {
+        margin-top: 0px;
+    }
+    
+    .languages-hero {
+        width: 100%;
+    }
+
+    .projects-section {
+        padding: 0px 40px;
+    }
+    
+    .projects-section h2 {
+        margin-top: 50px;
+        margin-bottom: 47px;
+    }
+
+    .projects-content {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .project-card {
+        min-width: 100%;
+        margin: 0px auto;
+        border: 1px solid rgb(0, 0, 0, 0.12);
+        text-align: center;
+    }
+
+    .grocerydelivery-image, .ireporter-api-image {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        margin-top: 50px;
+    }
+
+    .footer .row.justify-content-center {
+        max-width: 100%;
+    }
+
+    .footer .col {
+        width: 100%;
+    }
+
+    .footer h1 {
+        margin: 40px auto;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .footer-image {
+        margin: 0px auto;
+        margin-bottom: 40px;
+    }
+
+    .contacts {
+        margin-bottom: 40px;
+    }
+
+    .contacts-links .row {
+        /* margin: 0px 15px; */
+        padding: 0px 120px 0px 0px;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 576px) and (max-width: 991px) {
+
+    .navbar-light {
+        padding: 30px 70px;
+    }
+
+    .navbar-brand p {
+        font-size: 30px;
+    }
+
+    .nav-link {
+        font-size: 20px;
+    }
+
+    .hero-text {
+        padding: 20px 100px;
+    }
+
+    .hero-text p {
+        font-size: 20px;
+        margin: 50px 0px;
+    }
+
+    .btn-hero {
+        font-size: 20px;
+        padding: 18px 30px;
+    }
+
+    .hero-image {
+        width: 80%;
+        padding: 0px 100px;
+        margin: 0px auto;
+        height: auto;
+    }
+
+    .skills-section {
+        margin-top: 0px;
+        padding: 70px;
+    }
+
+    .skills-section h2 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .skills-content {
+        padding: 0px 70px;
+    }
+
+    .skill-card {
+        width: 100%;
+        margin: 25px auto;
+    }
+
+    .skill-card .row {
+        max-width: 100%;
+        margin: 0px;
+    }
+
+    .skill-card .col-4 {
+        max-width: 120px;
+        min-height: 180px;
+    }
+
+    .skill-card .col-8 {
+        padding-right: 0px;
+        margin: auto;
+    }
+
+    .skill-card .col-8 h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .skill-card .col-8 p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .languages {
+        padding: 0px 40px;
+        margin-bottom: 70px;
+    }
+
+    .languages-section {
+        margin: 0px auto;
+        padding: 70px;
+    }
+
+    .languages-hero {
+        margin: 0px;
+    }
+
+    .languages-card h3 {
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    .languages-card p {
+        font-size: 17px;
+        line-height: 28px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .projects-section {
+        padding: 0px 100px;
+        margin-bottom: 190px;
+    }
+    
+    .projects-section h2 {
+        margin-top: 0px;
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+
+    .projects-content {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .project-card {
+        min-width: 90%;
+        margin: 20px auto;
+        border: 1px solid #0000001f;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .project-card h3 {
+        font-size: 26px;
+        line-height: 27px;
+        margin: 40px auto;
+    }
+
+    .project-card p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .project-card button {
+        font-size: 20px;
+        padding: 18px;
+    }
+
+    .grocerydelivery-image, .ireporter-api-image {
+        width: 250px;
+        height: 250px;
+        margin: auto;
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .footer {
+        margin-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .footer .row.justify-content-center {
+        max-width: 100%;
+    }
+
+    .footer .col {
+        width: 100%;
+    }
+
+    .footer h1 {
+        margin: 70px auto;
+        text-align: center;
+    }
+
+    .footer-image {
+        margin: 0px auto;
+        margin-bottom: 70px;
+    }
+
+    .contacts {
+        margin-bottom: 40px;
+    }
+
+    .contacts-links .row {
+        padding: 10px 120px 10px 0px;
+    }
+ 
+    .contact-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contacts-links .row a, .contacts-links .row p {
+        padding: 0px;
+        margin: 10px;
+        font-size: 20px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
